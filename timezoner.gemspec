@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
   s.description = "Not sure yet."
   s.files       = `git ls-files`.split("\n") - %w[timezoner.gemspec Gemfile init.rb]
   s.require_paths = ["lib"]
-#  s.executables = ["timezoner"]
+  s.executables = ["timezoner"]
 end
